@@ -1,23 +1,23 @@
-const logotext = "JOHN";
+const logotext = "Arun";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Arun Kumar R",
+    description: "I’m Arun SW engineer _ Full stack devloper,currently working in Avo Automation",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Arun",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I develop apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "A Frontend Developer with 1.7 years of experience.specialize in React, Angular, and Node.js, building dynamic web applications. Currently working on a full-stack project to enhance my skills",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about my self",
+    aboutme: "MEAN/MERN Stack Developer with 1.7 years of experience in building scalable web applications. Proficient in HTML, CSS, JavaScript,React, and AngularJS. Skilled in developing RESTful APIs using Node.js and Express.js,with strong expertise in MySQL for database management. Well-versed in responsive design, cross-browser compatibility, and web accessibility. Experienced in using Git for version control, ensuring seamless collaboration within development teams.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -37,42 +37,45 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
+        name: "React Js",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Angular JS",
         value: 85,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 90,
     },
     {
-        name: "React",
+        name: "Node Js",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Mysql",
+        value: 60,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Avo Automation",
+        projectName:"Avo Assure",
+        description: " Developed the Frontend using React.js, creating dynamic and responsive UI components.Implemented web scraping functionality with Node.js for automated data extraction. Integrated APIs to enhance automation workflows and data processing.Optimized performance and ensured a seamless user experience",
+        projectTwo:"Avo ITDM",
+        descriptionTwo:"Built the entire Frontend using Angular 16, utilizing features like signals, standalone components, and state management. Developed interactive UI components to improve user engagement.Optimized application performance with lazy loading and efficient API calls.Ensured responsiveness, accessibility, and cross-browser compatibility"
+
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Internship",
+        projectName: "V labs Pvt ltd",
+        description:"Analyzed business requirements and converted them into technical solutions using React.js, AngularJS, Node.js, MySQL, and MongoDB. Built interactive UI components using HTML5, CSS3, JavaScript,jQuery, and Bootstrap, ensuring responsiveness with SASS.Developed and optimized React-based UIs, focusing on performance and mobile-friendly designs.Managed project dependencies using NPM, working with tools like Express.js, Mongoose, Body-parser, Bcrypt.js, Socket.io, and JWT"
+
     },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+
 ];
 
-const dataportfolio = [{
+const dataportfolio = [{    
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
@@ -136,9 +139,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "Arunmahi921@gmail.com",
+    YOUR_FONE: "7795969639",
+    description: "Feel free to reach out! Whether you have a question, collaboration idea, or just want to say hi, I’d love to hear from you. I'll get back to you as soon as possible! ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +150,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/SilentCat24",
+    // facebook: "https://facebook.com",
+    linkedin: "https://www.linkedin.com/in/arun-productengineer/",
+
 };
 export {
     meta,
